@@ -1,0 +1,119 @@
+ul.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+  margin: 0;
+  display: block;    
+}
+
+ul.nav li a {
+  min-width: 155px;
+  margin: 0 0 0 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul.nav li > a {
+  text-align: center;
+  background-color: #007;
+  color: #FFF;
+  border-radius: 0;
+}
+
+ul.nav li ul li a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+a.menu:after, .dropdown-toggle:after {
+  content: none;
+}
+
+img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel {
+  height: 425px;
+}
+
+
+h1 {
+  padding: 10px 0 10px 0;
+}
+h1, h3 {
+  text-align: center;
+}
+
+body {
+  background-image: url('Optimized-background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  background-color: #FFF;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer{
+  margin-bottom: 20px;
+}
+
+.dark-blue {
+  background-color: #028;
+  color: #FFF;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.stuff {
+  color: #1B0;
+}
+
+.stuff img {
+  border: 5px solid #1B0;
+}
+
+div.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+div.control-group-short {
+  margin-bottom: 5px;
+}
+
+.form-horizontal .control-label-small {
+  float: left;
+  width: 100px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+p.form-text {
+  margin: 0 20px 10px 125px;
+  text-align: left;
+}
+
+div#main {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer div.container {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
